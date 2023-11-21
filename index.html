@@ -3,14 +3,105 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/app.css">
     <title>Tech Friends</title>
 </head>
 
 <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="root">
+        <div class="flex-column justify-flex-start min-100-vh">
+            <header class="bg-info text-dark mb-4 py-3 display-flex align-center">
+                <div class="container flex-column justify-space-between-lg justify-center align-center text-center"><a
+                        class="text-dark" href="/">
+                        <h1 class="m-0" style="font-size: 3rem;">Tech Friends</h1>
+                    </a>
+                    <p class="m-0" style="font-size: 1.75rem; font-weight: 700;">Meet your new programming pals.</p>
+                </div>
+            </header>
+            <div class="container">
+                <main>
+                    <div class="flex-row justify-center">
+                        <div class="col-12 col-md-10 mb-3 p-3" style="border: 1px dotted rgb(26, 26, 26);">
+                            <div>
+                                <h3>Add yourself to the list...</h3>
+                                <form class="flex-row justify-center justify-space-between-md align-center">
+                                    <div class="col-12 col-lg-9"><input placeholder="Add your profile name..."
+                                            class="form-input w-100" value=""></div>
+                                    <div class="col-12 col-lg-3"><button class="btn btn-info btn-block py-3"
+                                            type="submit">Add Profile</button></div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-10 my-3">
+                            <div>
+                                <h3 class="text-primary">Here's the current roster of friends...</h3>
+                                <div class="flex-row justify-space-between my-4">
+                                    <div class="col-12 col-xl-6">
+                                        <div class="card mb-3">
+                                            <h4 class="card-header bg-dark text-light p-2 m-0">Bootcamp <br><span
+                                                    class="text-white" style="font-size: 1rem;">currently has 4 endorsed
+                                                    skills</span></h4><a
+                                                class="btn btn-block btn-squared btn-light text-dark"
+                                                href="/profiles/655c1322f5b34b60b39db3d1">View and endorse their
+                                                skills.</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <div class="card mb-3">
+                                            <h4 class="card-header bg-dark text-light p-2 m-0">UCF <br><span
+                                                    class="text-white" style="font-size: 1rem;">currently has 0 endorsed
+                                                    skills</span></h4><a
+                                                class="btn btn-block btn-squared btn-light text-dark"
+                                                href="/profiles/655cc9f11327634a1c27a177">View and endorse their
+                                                skills.</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <div class="card mb-3">
+                                            <h4 class="card-header bg-dark text-light p-2 m-0">Mongo <br><span
+                                                    class="text-white" style="font-size: 1rem;">currently has 0 endorsed
+                                                    skills</span></h4><a
+                                                class="btn btn-block btn-squared btn-light text-dark"
+                                                href="/profiles/655ccd0b1327634a1c27a17a">View and endorse their
+                                                skills.</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <div class="card mb-3">
+                                            <h4 class="card-header bg-dark text-light p-2 m-0">react <br><span
+                                                    class="text-white" style="font-size: 1rem;">currently has 0 endorsed
+                                                    skills</span></h4><a
+                                                class="btn btn-block btn-squared btn-light text-dark"
+                                                href="/profiles/655ccd121327634a1c27a17d">View and endorse their
+                                                skills.</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-xl-6">
+                                        <div class="card mb-3">
+                                            <h4 class="card-header bg-dark text-light p-2 m-0">sdfsdfsd <br><span
+                                                    class="text-white" style="font-size: 1rem;">currently has 0 endorsed
+                                                    skills</span></h4><a
+                                                class="btn btn-block btn-squared btn-light text-dark"
+                                                href="/profiles/655d35d5bc05a4407b214e71">View and endorse their
+                                                skills.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <footer class="w-100 mt-auto text-dark p-4">
+                <div class="container text-center mb-5">
+                    <h4>© 2023 - Tech Friends</h4>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./assets/src/app.js"></script>
 </body>
 
 </html>
