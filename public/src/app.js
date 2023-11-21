@@ -1,1 +1,7 @@
-console.log(`Learning during office hours is the way go..`)
+let profileListEL = document.getElementById("profile-list")
+let btnProfile = document.getElementById("btnProfile")
+let profileNameEL = document.getElementById("profile-name");
+
+const addDisplay = () => {
+
+} 
