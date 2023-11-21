@@ -18,8 +18,9 @@ app.get("/api/profile", (req, res) => {
 })
 
 //HTML View
-app.get("/", (req, res) => {
-    res.send(`HTML is under construction..`)
-})
+
+
+app.use(express.static("public"))
+
 
 app.listen(PORT, () => console.log(`Server is listening port ${PORT}`))
